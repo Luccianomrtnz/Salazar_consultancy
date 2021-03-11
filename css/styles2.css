@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Compasse;
+  src: url(../ext/Compasse/Compasse/Compasse\ Regular.ttf);
+}
+
+body {
+  font-family: Compasse;
+  font-size: 10px;
+  color: #39494f;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/* header section */
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px;
+}
+
+.nav-link {
+  color: #39494f;
+  font-size: 1rem;
+}
+
+.logo-brand {
+  max-width: 250px;
+  min-width: 160px;
+}
+.cerrar {
+  background-color: #fff;
+  border: none;
+  padding: 0;
+}
+
+/* sidebard */
+.Mside {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  z-index: 2000;
+  padding: 20px;
+  background-color: #39494f;
+}
+.Mside a {
+  color: #fff;
+}
+
+/* end header section */
+
+/*Hero Section*/
+#hero {
+  background-image: url(../img/Soluciones/Solucion.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  
+}
+
+#hero h1 {
+  font-size: 6vh;
+}
+span {
+  color: #ffffff;
+}
+
+/*End hero Section*/
+
+/* section servicio */
+.bgLightGrey {
+  background-color: #f2f2f2;
+}
+#servicio .servicio {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+  justify-content: start;
+}
+
+#servicio .texto-header {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+#servicio .servicios-medio {
+  justify-content: initial;
+  align-items: start;
+}
+
+#servicio .caja {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  border: 1px solid rgba(253, 0, 0, 1);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+#servicio .cajas {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+
+#servicio .valores h2 {
+  width: 100%;
+  text-align: left;
+  font-size: 0.99rem;
+}
+
+#servicio .texto-valores {
+  margin-top: 120px;
+  padding: 50px;
+  color: #39494f;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #d60000;
+}
+
+#servicio .boton {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+#servicio .btn {
+  background: #d60000;
+  border-color: #d60000;
+  border-radius: 30px;
+  margin-top: 5vw;
+}
+
+#servicio .con {
+  margin-top: 5vw;
+}
+
+/* end section servicio */
+/* section footer */
+footer {
+  background-color: #ba1818;
+  padding: 80px 0;
+  text-align: center;
+}
+
+footer a {
+  color: var(--white-color);
+}
+
+footer a:hover {
+  color: var(--white-color);
+}
+
+footer .list-inline .list-inline-item {
+  padding: 10px 15px;
+}
+
+/* end section footer */
